@@ -1,0 +1,8 @@
+name: opay
+type: module
+description: OPay is a payment gateway service provider
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+configure: opay.settings_form

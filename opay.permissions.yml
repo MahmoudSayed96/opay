@@ -1,0 +1,4 @@
+administer opay configuration:
+  title: 'Administer opay configuration'
+  description: 'Manage opay configurations'
+  restrict access: true

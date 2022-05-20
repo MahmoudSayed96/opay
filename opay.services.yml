@@ -1,0 +1,7 @@
+services:
+  logger.channel.opay:
+    parent: logger.channel_base
+    arguments: ['opay']
+  opay.client:
+    class: 'Drupal\opay\Client\OPayApiClient'
+    arguments: ['@http_client', '@config.factory', '@logger.channel.opay', '@datetime.time']

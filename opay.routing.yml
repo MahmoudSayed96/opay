@@ -1,0 +1,15 @@
+#opay.create:
+#  path: '/opay/create'
+#  defaults:
+#    _title: 'OPay create'
+#    _controller: '\Drupal\opay\Controller\OpayController::createPay'
+#  requirements:
+#    _role: 'authenticated'
+
+opay.settings_form:
+  path: '/admin/config/system/opay'
+  defaults:
+    _title: 'opay settings'
+    _form: 'Drupal\opay\Form\OPaySettingsForm'
+  requirements:
+    _permission: 'administer opay configuration'

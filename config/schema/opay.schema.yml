@@ -1,0 +1,13 @@
+opay.settings:
+  type: config_object
+  label: 'OPay settings'
+  mapping:
+    token:
+      type: string
+      label: 'OPay token signature'
+    merchant_id:
+      type: string
+      label: 'OPay merchant id'
+    api_uri:
+      type: string
+      label: 'OPay API Uri'

@@ -1,0 +1,6 @@
+opay.settings_form:
+  title: OPay
+  description: Configure opay.
+  parent: system.admin_config_services
+  route_name: opay.settings_form
+  weight: 10
